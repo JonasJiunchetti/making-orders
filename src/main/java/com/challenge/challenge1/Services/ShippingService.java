@@ -12,7 +12,7 @@ public class ShippingService {
             return 20.00;
         }
         if(order.getBasic() < 200.0 ){
-            return 10.00;
+            return 12.00;
         }
         else{
             return 0;
